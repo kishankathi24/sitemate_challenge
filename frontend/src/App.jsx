@@ -18,15 +18,15 @@ function App() {
     }
   }
 
-  async function SubmitNewIssue () {
-    try {
-      const response = axios.post('http://localhost:3001/createissues', {
+  // async function SubmitNewIssue () {
+  //   try {
+  //     const response = axios.post('http://localhost:3001/createissues', {
 
-      }
-    } catch (error) {
+  //     }
+  //   } catch (error) {
       
-    }
-  }
+  //   }
+  // }
 
   useEffect(() => {
     GetListOfIssues();
